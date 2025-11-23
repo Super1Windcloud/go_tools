@@ -38,9 +38,13 @@
   - `maven_search search -g spring-boot` 选择版本后输出 Gradle 依赖
 - 截图：`maven_search/img/search.jpg`、`maven_search/img/TUI.jpg`
 
-## 开发提示
-- 任务编排：`justfile` 提供了单个/全部工具的构建目标。
-- 工作区：`go.work` 已包含根模块、`maven_search` 与 `exc`，可 `go work sync` 后在各目录开发。
+ 
 
-## 许可证
-MIT，详见 `LICENSE`。
+###  screenshot 
+![Image](./maven_search/img/search.jpg)
+
+--- 
+
+![img](./maven_search/img/TUI.jpg)
+
+
